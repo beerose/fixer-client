@@ -1,0 +1,39 @@
+{
+  "name": "currencies-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack; node server.js",
+    "dev": "./node_modules/.bin/webpack-dev-server --progress"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.3.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "css-loader": "^0.26.2",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1",
+    "express": "^4.15.4",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "dependencies": {
+    "normalize.css": "^7.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "recompose": "^0.25.1",
+    "semantic-ui-react": "^0.74.2",
+    "styled-components": "^2.1.2"
+  }
+}
