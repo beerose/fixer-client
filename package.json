@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack; node server.js",
-    "postinstall": "npm i; ./node_modules/.bin/webpack -p --config ./webpack.config.js --progress",
+    "start": "node server.js",
     "dev": "./node_modules/.bin/webpack-dev-server --progress"
   },
   "engines": {
