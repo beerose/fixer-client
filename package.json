@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/webpack; node server.js",
-    "postinstall": "npm i; ./node_modules/.bin/webpack -p --config ./webpack.prod.config.js --progress",
+    "postinstall": "npm i; ./node_modules/.bin/webpack -p --config ./webpack.config.js --progress",
     "dev": "./node_modules/.bin/webpack-dev-server --progress"
   },
   "engines": {
